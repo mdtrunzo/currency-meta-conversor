@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Meta Ads CPC ARS → EUR",
+  "version": "1.0",
+  "description": "Muestra el CPC de Meta Ads convertido de pesos argentinos a euros al hacer hover.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.facebook.com/adsmanager/*",
+        "https://adsmanager.facebook.com/adsmanager/*"
+      ],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+.ars-eur-tooltip {
+  position: absolute;
+  background: #111;
+  color: #fff;
+  padding: 6px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  pointer-events: none;
+  z-index: 999999;
+  display: none;
+  white-space: pre;
+}
