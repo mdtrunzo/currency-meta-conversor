@@ -1,5 +1,5 @@
-const EUR_RATE = 1700
-const USD_RATE = 1500
+const EUR_RATE = 1750
+const USD_RATE = 1550
 
 const parseARS = (text) => {
   if (!text.includes('$') && !text.toUpperCase().includes('ARS')) return null
